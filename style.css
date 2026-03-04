@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0px;
+    height: 900px;
+    width: 600px;
+    max-width: 600px;
+    background-color: #3385FF;
+    border-radius: 10px;
+}
+
+#age{
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding: 20px 150px;
+    background-color: #CCE0FF;
+    font-size: 25px;
+}
+
+#gender{
+    border-radius: 5px;
+    padding: 20px 145px;
+    margin: 15px;
+    font-size: 25px;
+    background-color:#CCE0FF;
+}
+
+#hgtwt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 8px 50px;
+    border-radius: 5px;
+    background-color:#CCE0FF;
+}
+
+main button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: #CCE0FF;
+}
+
+main button:hover{
+    background-color: #002966;
+    color: white;
+    cursor: pointer;
+}
+
+#result{
+    padding: 10px 80px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+}
